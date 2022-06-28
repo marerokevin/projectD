@@ -36,16 +36,8 @@
                 </div>
             @endif
 
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-              <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                <div>
-                  <img src="/svg/document.svg" alt="">
-                </div>
-                <a class="text-gray-900 dark:text-white">
-                  <div><img src="/svg/document.svg" style="height:300px; padding-right:2rem;"</div>
-                  <div>Document Management System</div>
-                </a>
-              </div>
+            <div class="max-w-9xl mx-auto sm:px-6 lg:px-8">
+              
                     <div class="text-center text-sm text-gray-500 sm:text-left">
                         <div class="flex items-center">
                         </div>
