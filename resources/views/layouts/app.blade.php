@@ -22,15 +22,17 @@
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
               <a class="navbar-brand d-flex" href="{{ url('/') }}">
                 <div><img src="/svg/document.svg" style="height:26px; padding-right:1rem; border-right: 1px solid #333;"></div>
                 <div style="padding-left:1rem; padding-top:0.1rem;";>Document Management System</div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                  </button>
 
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
@@ -73,9 +75,11 @@
                         @endguest
                     </ul>
                 </div>
+            </ul>
             </div>
-        </nav>
 
+
+        </nav>
         <main class="py-4">
             @yield('content')
         </main>
