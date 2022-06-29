@@ -75,7 +75,9 @@
         <!-- Sidebar -->
         <div class="bg-light border-right" id="sidebar-wrapper">
         <div class="list-group list-group-flush">
-            <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+          <a href="#" class="list-group-item d-flex list-group-item-action bg-light">
+            <div><img src="/svg/home-2-line.svg" style="height: 25px; padding-right: 20px;"></div><div style="padding-top:2px;">Dashboard</div>
+          </a>
             <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
             <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
             <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
@@ -89,7 +91,7 @@
         <div id="page-content-wrapper">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-            <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+            <button class="btn btn-primary" id="menu-toggle"><img src="/svg/menu-line.svg" style="height: 25px;"></button>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
